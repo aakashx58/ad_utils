@@ -1,4 +1,4 @@
-import 'package:ad_gridview/ad_gridview.dart';
+import 'package:ad_utils/ad_utils.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -65,11 +65,11 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("AdGridView Homepage")),
-      body: AdGridView(
+      appBar: AppBar(title: const Text("AdUtils Homepage")),
+      body: AdUtils(
         crossAxisCount: 4,
         itemCount: list.length,
-        adGridViewType: AdGridViewType.once,
+        adUtilsType: AdUtilsType.repeated,
         adIndex: 2,
         itemMainAspectRatio: 1 / 1,
         adWidget: Container(
@@ -87,7 +87,7 @@ class _HomepageState extends State<Homepage> {
             height: 150,
             width: 160,
             margin: const EdgeInsets.all(5),
-            color: Colors.grey,
+            color: Colors.blueGrey.shade100,
             child: Center(
               child: Text(
                 "${list[index]}",
