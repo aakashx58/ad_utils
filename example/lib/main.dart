@@ -69,8 +69,8 @@ class _HomepageState extends State<Homepage> {
       body: AdUtils(
         crossAxisCount: 4,
         itemCount: list.length,
-        adUtilsType: AdUtilsType.repeated,
-        adIndex: 2,
+        adUtilsType: AdUtilsType.custom,
+        adIndex: 3,
         itemMainAspectRatio: 1 / 1,
         adWidget: Container(
           height: 150,
