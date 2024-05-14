@@ -1,4 +1,4 @@
-# ad_gridview
+# ad_utils
 
 A Flutter Widget to easily show Native Ad or any other Widget in between a GridView.
 
@@ -15,16 +15,16 @@ To use this package, add ad_gridview as a dependency in your pubspec.yaml file.
 ```
 dependencies:
   ...
-  ad_gridview: <latest_version>
+  ad_utils: <latest_version>
 ```
 In your library add the following import:
 ```
-import 'package:ad_gridview/ad_gridview.dart';
+import 'package:ad_utils/ad_utils.dart';
 ```
 ## Usage
 
 ```dart
-    AdGridView(crossAxisCount: crossAxisCount,
+    AdUtils(crossAxisCount: crossAxisCount,
 itemCount: itemCount,
 adIndex: adIndex,
 adWidget: adWidget,

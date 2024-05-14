@@ -1,7 +1,7 @@
 name: ad_utils
 description: "A flutter widget to easily show Native Ad or any other Widget in Between a GridView."
 version: 0.0.1
-repository: https://github.com/RajNarola29/ad_gridview.git
+repository: https://github.com/aakashx58/ad_utils.git
 environment:
   sdk: '>=3.2.5 <4.0.0'
   flutter: ">=1.17.0"
